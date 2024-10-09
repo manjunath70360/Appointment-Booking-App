@@ -32,7 +32,7 @@ class LoginForm extends Component {
 
 
   onSubmitSuccess = token => {
-    localStorage.setItem('token', token)
+    Cookies.set('token', token)
     const {history} = this.props
     history.replace('/home')
   }
