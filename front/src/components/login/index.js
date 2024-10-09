@@ -1,6 +1,6 @@
 import {Component} from 'react'
 import {withRouter} from 'react-router-dom'
-import Cookies from 'js-cookies'
+import Cookies from 'js-cookie'
 import './index.css'
 
 import { FaFacebook } from "react-icons/fa";
