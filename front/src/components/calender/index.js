@@ -72,7 +72,7 @@ onClickClose = ()=>{
     const formattedDate = `${year}-${month < 10 ? '0' + month : month}-${day < 10 ? '0' + day : day}`;
   
 const appointmentDetails = { date: formattedDate, time: selectedTime };
-    const url = 'http://localhost:3000/api/appointments';
+    const url = 'https://appointment-booking-app-w3bv.onrender.com/api/appointments';
     const token = localStorage.getItem('token');
     const options = {
       method: 'POST',
