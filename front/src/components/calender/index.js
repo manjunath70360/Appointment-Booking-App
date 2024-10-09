@@ -27,7 +27,7 @@ onClickClose = ()=>{
   }
 
   fetchAppointments = async () => {
-    const url = 'http://localhost:3000/api/appointments';
+    const url = 'https://appointment-booking-app-w3bv.onrender.com/api/appointments';
     const token = localStorage.getItem('token');
     const options = {
       headers: {
