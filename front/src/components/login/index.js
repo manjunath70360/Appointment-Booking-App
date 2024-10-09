@@ -52,8 +52,8 @@ class LoginForm extends Component {
 
     const url =
       this.state.activeTab === 'login'
-        ? 'http://localhost:3000/api/users/signin'
-        : 'http://localhost:3000/api/users/signup'
+        ? 'https://appointment-booking-app-w3bv.onrender.com/api/users/signin'
+        : 'https://appointment-booking-app-w3bv.onrender.com/api/users/signup'
 
     const options = {
       method: 'POST',
